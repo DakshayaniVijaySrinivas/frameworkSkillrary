@@ -3,15 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testScripts.FourthTest">
+      <class name="testScripts.ThirdTest">
         <methods>
           <include name="classTearDown"/>
           <include name="classConfiguaration"/>
           <include name="methodConfiguaration"/>
           <include name="methodTearDown"/>
-          <include name="fourthTest"/>
+          <include name="thirdTest"/>
         </methods>
-      </class> <!-- testScripts.FourthTest -->
+      </class> <!-- testScripts.ThirdTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

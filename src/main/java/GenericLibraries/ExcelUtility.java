@@ -51,7 +51,7 @@ public String fetchDataFromExcel(String sheetName,int rowNum, int cellNum) {
 public List<String> fetchDataFromExcel(String sheetName){
 	List<String> dataList=new ArrayList<>();
 	Sheet sheet=wb.getSheet(sheetName);
-	for(int i=0;i<=4;i++) {
+	for(int i=0;i<4;i++) {
 		String data=sheet.getRow(i).getCell(1).getStringCellValue();
 		dataList.add(data);
 	}

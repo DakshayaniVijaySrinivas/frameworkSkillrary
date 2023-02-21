@@ -19,7 +19,7 @@ public class CoreJavaVideoPage {
 	@FindBy(xpath="//button[@aria-label='Pause']")
 	private WebElement pauseButton;
 	
-	@FindBy(xpath="//span[text()='Add To Wishlist']")
+	@FindBy(xpath="//a[@class='addtowishlist']")
 	private WebElement addToWishlistTab;
 	
 	@FindBy(xpath="//a[@class='close_cookies']")
